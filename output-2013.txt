@@ -1,0 +1,40 @@
+Type size of pool:
+(or 'exit' to exit) Type number of items to be selected:
+(or 'exit' to exit) Approximately 57.8 bits of entropy needed.
+
+Type #1 randomness or 'end' followed by new line.
+Up to 16 integers or the word 'float' followed by up
+to 16 x.y format reals.
+7 8 11 17 19 25 46 
+Type #2 randomness or 'end' followed by new line.
+Up to 16 integers or the word 'float' followed by up
+to 16 x.y format reals.
+8285182 
+Type #3 randomness or 'end' followed by new line.
+Up to 16 integers or the word 'float' followed by up
+to 16 x.y format reals.
+60115701 
+Type #4 randomness or 'end' followed by new line.
+Up to 16 integers or the word 'float' followed by up
+to 16 x.y format reals.
+2 3 18 26 32 33 42 
+Type #5 randomness or 'end' followed by new line.
+Up to 16 integers or the word 'float' followed by up
+to 16 x.y format reals.
+Key is:
+ 7.8.11.17.19.25.46./8285182./60115701./2.3.18.26.32.33.42./
+index        hex value of MD5        div  selected
+ 1  D31D1C4AC453CA37989E9920B4E9BC03  154  -> 138 <-
+ 2  7D4981E47C3C36BC96014648D7B5BA81  153  -> 151 <-
+ 3  15487BEAE370809B0FBA261900BCA388  152  -> 89 <-
+ 4  CA3AA0213C2806E5862C840B95BC3241  151  -> 112 <-
+ 5  2F535522AA633A910133065D2CF8D5DE  150  -> 117 <-
+ 6  21BF818EEE3464A1FC754EBF0C10A07E  149  -> 145 <-
+ 7  4BBBB6890F39575B1301647FE330AEEA  148  -> 118 <-
+ 8  E127386593045A7ED46091427E85F242  147  -> 143 <-
+ 9  2606896E805BF31DC4135043A3C9BFAB  146  -> 144 <-
+10  8D1BD67E08298BB0A91BCE81AA683D68  145  -> 122 <-
+11  618467D70D20C18B509E402DCA2E679D  144  -> 95 <-
+12  2C3BF59B559F268A2F98BD97031A9CAF  143  -> 139 <-
+
+Done, type any character to exit.

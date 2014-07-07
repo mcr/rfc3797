@@ -1,0 +1,30 @@
+Date: Fri, 20 Jun 2014 14:38:53 -0400
+Subject: NomCom Selection Test Case 2013
+From: Matt Lepinski <mlepinski@gmail.com>
+To: mcr@sandelman.ca
+
+Size of Pool: 154
+
+First Input (Lottery):
+7 8 11 17 19 25 46
+
+Second Input (from Debt):
+08285182
+
+Third Input (from Debt):
+60115701
+
+Fourth Input (Lottery):
+2 3 18 26 32 33 42
+
+Results:
+138
+151
+89
+112
+117
+145
+118
+143
+144
+122

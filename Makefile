@@ -1,3 +1,2 @@
-LDFLAGS=-lm
-CFLAGS=
-rfc3797: rfc3797.o md5c.o
+nomcom: nomcom.c md5.c
+	cc -o nomcom nomcom.c md5.c -lm

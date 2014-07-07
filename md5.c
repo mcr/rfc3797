@@ -24,10 +24,11 @@ documentation and/or software.
  */
 
 #include "global.h"
-#include "md5.h"
+#include "MD5.h"
 
 /* Constants for MD5Transform routine.
  */
+
 #define S11 7
 #define S12 12
 #define S13 17
@@ -124,7 +125,7 @@ unsigned int inputLen;                     /* length of input block */
 
   /* Update number of bits */
   if ((context->count[0] += ((UINT4)inputLen << 3))
-    < ((UINT4)inputLen << 3))
+   < ((UINT4)inputLen << 3))
  context->count[1]++;
   context->count[1] += ((UINT4)inputLen >> 29);
 
@@ -172,7 +173,6 @@ MD5_CTX *context;                                       /* context */
 
   /* Append length (before padding) */
   MD5Update (context, bits, 8);
-  
   /* Store state in digest */
   Encode (digest, context->state, 16);
 
@@ -317,7 +317,7 @@ unsigned int len;
   unsigned int i;
 
   for (i = 0; i < len; i++)
-       output[i] = input[i];
+ output[i] = input[i];
 }
 
 /* Note: Replace "for loop" with standard memset if possible.
@@ -332,3 +332,4 @@ unsigned int len;
   for (i = 0; i < len; i++)
  ((char *)output)[i] = (char)value;
 }
+
